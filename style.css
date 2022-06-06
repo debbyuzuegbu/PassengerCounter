@@ -18,6 +18,12 @@ h2 {
     font-size: 60px;
 }
 
+p {
+    color: #f2f2f2;
+    font-size: 30px;
+    margin-left: 30%;
+}
+
 Button {
     border: none;
     padding-top: 10px;
@@ -37,3 +43,4 @@ Button {
 #save-btn {
     background: green;
 }
+
