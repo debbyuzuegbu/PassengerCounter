@@ -15,7 +15,7 @@ h1 {
 h2 {
     color: #f2f2f2;
     margin-left: 45%;
-    font-size: 50px;
+    font-size: 60px;
 }
 
 Button {
@@ -32,4 +32,8 @@ Button {
 
 #increment-btn {
     background: darkred;
+}
+
+#save-btn {
+    background: green;
 }
