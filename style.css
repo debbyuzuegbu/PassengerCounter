@@ -44,3 +44,21 @@ Button {
     background: green;
 }
 
+
+@media (max-width: 900px) {
+
+    body { 
+        background-image: cover;
+    }
+
+    p{
+       margin-left: 30px; 
+       font-size: 25px;
+    }
+    Button {
+        margin-left: 160px;
+        display: flex;
+
+    }
+    
+}

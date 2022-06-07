@@ -15,6 +15,10 @@ function save() {
     let countStr = count + " - "
     // Created a variable that contains both the count and the dash separator, i.e. "12 - "
     // Rendered the variable in the saveEl using innerText
-    saveEl.innerText += countStr
+    saveEl.textContent += countStr
     console.log(count)
+    countEl.textContent = 0
+    count = 0
 }
+
+
